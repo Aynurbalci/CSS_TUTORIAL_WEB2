@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Pseudo Element</title>
+    <style>
+        .para1{
+            -webkit-flow-into: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+
+        }
+        /* .para1::first-line{
+            color:red;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+        } */
+        .para1::after{
+            content:url(https://g7.pngresmi.com/preview/729/192/1024/computer-icons-instagram-logo-sticker-logo-thumbnail.jpg);
+        }
+        .para1::before{
+            content: "paragraf öncesi";
+        }
+    </style>
+</head>
+<body>
+    <p class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, voluptate impedit ipsum dicta sed totam exercitationem libero et laudantium quibusdam consectetur natus aliquam soluta commodi quos molestias quisquam harum modi dolor quas perferendis! Architecto rem quia asperiores quas veniam laborum non, consequatur rerum laboriosam mollitia incidunt eveniet corporis quaerat est eos, vitae sunt molestias amet porro! Doloribus in cumque magnam consequuntur aperiam laboriosam quaerat beatae, obcaecati illum possimus explicabo libero mollitia asperiores iure deserunt facilis delectus accusantium similique sapiente enim ut suscipit, atque tempore! Id quas libero sequi doloribus voluptas impedit ipsa, pariatur veritatis omnis iste repellat ad, quae ipsam?
+
+    </p>
+</body>
+</html>

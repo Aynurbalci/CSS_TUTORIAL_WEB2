@@ -1,0 +1,59 @@
+.text-center{
+    text-align: center;
+}
+.heading-small{
+font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/* colors */
+.bg-dark-blue{
+    background: red;
+}
+.bg-light-blue{
+    background: darkblue;
+}
+/* buttons */
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 100%;
+    letter-spacing: 1px;
+}
+.btn-primary{
+    background:blue;
+
+}
+.btn-primary:hover{
+    color:red;
+    background: aqua;
+    border: 0.5px currentColor lightblue;
+}
+/* forms */
+.form-group{
+    padding: 0.25 0;
+}
+.form-group label{
+    display:block;
+}
+/* container */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.btn-block{
+width: 100%;
+text-align: center;
+}
+.form-control{
+    width: 30%;
+    padding: 0.4rem;
+    font-size: 0.75rem;
+    resize: none;
+    border-radius: 50%;
+}
